@@ -122,7 +122,7 @@ EF Core 提供了在首次访问导航属性时自动从数据库加载相关实
 
 [!code-xaml[](../../../samples/core/WPF/GetStartedWPF/GetStartedWPF/MainWindow.xaml?range=27-40)]
 
-最后，将 click 事件中的 `Save` 按钮和电线添加到 `Button_Click`。
+最后，添加一个 `Save` 按钮，并将 click 事件连接到 `Button_Click` 。
 
 [!code-xaml[](../../../samples/core/WPF/GetStartedWPF/GetStartedWPF/MainWindow.xaml?range=41-42)]
 
